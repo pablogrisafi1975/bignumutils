@@ -19,5 +19,5 @@ I supposed someone has already created a infix to OO translator, and I asked for
 After tons of search, I found this project called [http://code.google.com/p/birpn/ birpn] which allows you to write !BigInteger operations in Reverse Polish Notation ...It was not what I expected, since I wanted to use infix notation and work with !BigDecimal, but showed me how it can be done.
 
 ==Inception==
-I started fighting with [http://en.wikipedia.org/wiki/Shunting-yard_algorithm Shunting yard algorithm] and it was way out of my league .I was about to let it go and then I realize I didn't need a full lexical parser/interpreter...I have java working for me! So I wrote the minimal code that could handle operator precedence and (after a few tries) it worked like a charm. 
+I started fighting with [http://en.wikipedia.org/wiki/Shunting-yard_algorithm Shunting yard algorithm] and it was way out of my league. I was about to let it go and then I realize I didn't need a full lexical parser/interpreter...I have java working for me! So I wrote the minimal code that could handle operator precedence and (after a few tries) it worked like a charm. 
 For more info, go to the UserManual
