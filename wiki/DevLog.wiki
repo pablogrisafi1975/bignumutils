@@ -1,0 +1,6 @@
+#summary Summary of project progress
+
+= DevLog =
+
+== 2012-01-26 ==
+Starting up in site in google code
