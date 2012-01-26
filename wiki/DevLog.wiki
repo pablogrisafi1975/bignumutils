@@ -3,4 +3,4 @@
 = DevLog =
 
 == 2012-01-26 ==
-Starting up in site in google code
+Starting up in site in google code. Just enough time to make a couple of pages!
