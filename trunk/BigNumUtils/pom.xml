@@ -39,9 +39,6 @@
 				<role>developer</role>
 			</roles>
 			<timezone>-3</timezone>
-			<properties>
-				<picUrl>http://www.grisafi.com.ar/img/foto-formal.jpg</picUrl>
-			</properties>
 		</developer>
 	</developers>
 	<build>
@@ -99,6 +96,23 @@
 					</reportPlugins>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.1.2</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<phase>package</phase>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
@@ -109,6 +123,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-
 </project>
