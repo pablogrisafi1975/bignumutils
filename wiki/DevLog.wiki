@@ -2,6 +2,9 @@
 
 = DevLog =
 
+== 2012-02-03 ==
+Mavenized code committed. Maven is overkill, but everyone likes it
+
 == 2012-02-01 ==
 First version of code committed. (First version I'm not embarrassed)
 
