@@ -2,6 +2,10 @@
 
 = DevLog =
 
+== 2012-02-06==
+First version packaged via maven
+Some minor site updates to link javadoc and reports
+
 == 2012-02-03 ==
 Mavenized code committed. Maven is overkill, but everyone likes it
 
