@@ -2,6 +2,11 @@
 
 = DevLog =
 
+
+== 2012-02-07==
+User manual published
+Mime type fixed in docs
+
 == 2012-02-06==
 First version packaged via maven
 Some minor site updates to link javadoc and reports
