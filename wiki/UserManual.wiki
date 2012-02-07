@@ -20,7 +20,7 @@ So if you want to make a + b `*` c - d, do not worry about anything and just wri
 BigDecimal result = op(a, PLUS, b, TIMES, c, MINUS, d);
 }}}
 And the multiplication will be solved first, as you can expect.  
-Lets say you jave a operation which involves parenthesis, like (a + b) / (c + d). Every parenthesis requires a new op(), and, this is just as easy as
+Lets say you jave a operation which involves parenthesis, like (a + b) / (c + d). Every parenthesis requires a new op(), so this is just as easy as
 {{{
 BigDecimal result = op(op(a, PLUS, b), DIV, op( c, PLUS, d));
 }}}
