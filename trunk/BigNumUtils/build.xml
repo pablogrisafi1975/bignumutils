@@ -6,7 +6,10 @@
 	<property name="docs.dir" value="docs" />
 
 	<target name="clean">
-		<delete dir="${docs.dir}" />
+		<delete>
+			<!-- I'm keeping .svn folder using delete this way-->
+			<fileset dir="${docs.dir}"/>
+		</delete>
 	</target>
 
 	<target name="copy-to-docs">
@@ -29,9 +32,8 @@
 
 	<target name="fix-css">
 		<replace file="${docs.dir}/surefire/surefire-report.html">
-			<replacetoken>
-				<![CDATA[@import url("./css/site.css");]]>
-			</replacetoken>
+			<!-- Never format next line. <replacetoken> should be one line or it wont work-->
+			<replacetoken><![CDATA[@import url("./css/site.css");]]></replacetoken>
 			<replacevalue>
 				<![CDATA[@import url("./css/site.css");
 				#leftColumn { display:none; }
@@ -46,18 +48,21 @@
 		<property name="srcjar" value = "${target.dir}/${project.artifactId}-${project.version}-sources.jar"/>
 		<property name="docjar" value = "${target.dir}/${project.artifactId}-${project.version}-javadoc.jar"/>
 		<property file="build.googlecode.properties"/>
-		<property name="summary" value = "First version packaged via maven"/>
-		<property name="labels" value = ""/>
+		<property name="summary" value = "${upload-jar.summary}"/>
+		<property name="labels" value = "${upload-jar.labels}"/>
 		<echo message="jar file: ${codejar}"></echo>
 		<echo message="src file: ${srcjar}" ></echo>
 		<echo message="doc file: ${docjar}"></echo>
+		<echo message="summary : ${upload-jar.summary}"></echo>
+		<echo message="labels  : ${upload-jar.labels}"></echo>
 		<gcupload username="${googlecode.username}" password="${googlecode.password}" projectname="${project.artifactId}" filename="${codejar}" targetfilename="${codejar}" summary="${summary}" labels="${labels}" />
 		<gcupload username="${googlecode.username}" password="${googlecode.password}" projectname="${project.artifactId}" filename="${docjar}" targetfilename="${docjar}" summary="${summary}" labels="${labels}" />
 		<gcupload username="${googlecode.username}" password="${googlecode.password}" projectname="${project.artifactId}" filename="${srcjar}" targetfilename="${srcjar}" summary="${summary}" labels="${labels}" />
 	</target>
 
-	<target name="main" depends="clean,copy-to-docs, fix-css, upload-jar">
+	<target name="main" depends="clean,copy-to-docs, fix-css">
 		<echo message="Remember to manually update docs into svn" />
+		<echo message="Remember to manually set mimetype to new files in docs folder" />
 	</target>
 
 </project>
