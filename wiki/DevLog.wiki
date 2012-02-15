@@ -5,15 +5,20 @@
 
 == 2012-02-15==
 Remove unused main class, more integration tests  
+
 Better automatic project handling  
+
 Wiki examples page  
+
 
 == 2012-02-07==
 User manual published  
+
 Mime type fixed in docs  
 
 == 2012-02-06==
 First version packaged via maven  
+
 Some minor site updates to link javadoc and reports  
 
 == 2012-02-03 ==
