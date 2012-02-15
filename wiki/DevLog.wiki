@@ -3,6 +3,11 @@
 = DevLog =
 
 
+== 2012-02-15==
+Remove unused main class, more integration tests
+Better automatic project handling
+Wiki examples page
+
 == 2012-02-07==
 User manual published
 Mime type fixed in docs
