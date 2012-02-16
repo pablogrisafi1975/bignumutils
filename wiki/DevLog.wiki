@@ -1,4 +1,5 @@
 #summary Summary of project progress
+#labels Featured
 
 = DevLog =
 == 2012-02-16==
