@@ -1,7 +1,8 @@
 #summary Summary of project progress
 
 = DevLog =
-
+== 2012-02-16==
+Table of contents
 
 == 2012-02-15==
 Remove unused main class, more integration tests  
