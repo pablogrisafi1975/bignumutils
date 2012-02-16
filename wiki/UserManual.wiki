@@ -1,4 +1,5 @@
 #summary how to make it work
+#labels Featured
 =User Manual=
 
 == The basics ==
