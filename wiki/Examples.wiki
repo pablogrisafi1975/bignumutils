@@ -1,4 +1,5 @@
 #summary Several translation examples
+#labels Featured
 
 = Examples =
 
