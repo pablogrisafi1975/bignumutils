@@ -1,6 +1,6 @@
 #summary Table of contents
   * [UserManual User manual]
-  * [Examples examples]
+  * [Examples Examples]
   * [ProsAndCons Pros and cons]
   * [History History]
   * [DevLog Development Log]
