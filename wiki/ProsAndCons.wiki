@@ -1,4 +1,5 @@
 #summary Good and bad point of this library
+#labels Featured
 #sidebar TableOfContents
 = Pros And Cons=
 
