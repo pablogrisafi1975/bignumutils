@@ -27,6 +27,7 @@ BigDecimal result = op(op(a, PLUS, b), DIV, op( c, PLUS, d));
 Did I mention op is type-safe? Yes, you can only write alternated bignums and operations. You can't make syntax mistakes here.  
 That's all, folks. But there are some extra gifts.  
 
+Don't forget to check the [Examples] page to see more...er...examples
 == Extras ==
 
 Sometimes I found myself trying to do sums with lots of members. For this cases I wrote a *sum()* function that allows me to do that with a syntax nicer than both 
