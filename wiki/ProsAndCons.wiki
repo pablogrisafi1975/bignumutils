@@ -1,5 +1,5 @@
 #summary Good and bad point of this library
-
+#sidebar TableOfContents
 = Pros And Cons=
 
 As I told you before
