@@ -1,9 +1,10 @@
 #summary Table of contents
-  * [Articles HOWTO articles]
-    * [ArticlesXSS Web security]
-    * [ArticlesDom DOM manipulation]
-    * [ArticlesStyle CSS and style]
-    * [ArticlesTips Tips and tricks]
-  * [DOMReference DOM reference]
-  * [HTMLElements HTML reference]
-  * [CSSReference CSS reference]
+  * [UserManual User manual]
+  * [Examples examples]
+  * [ProsAndCons Pros and cons]
+  * [History History]
+  * [DevLog Development Log]
+  * [http://bignumutils.googlecode.com/svn/trunk/BigNumUtils/docs/apidocs/index.html JavaDoc]
+  * Reports
+    * [http://bignumutils.googlecode.com/svn/trunk/BigNumUtils/docs/surefire/surefire-report.html Tests]
+    * [http://bignumutils.googlecode.com/svn/trunk/BigNumUtils/docs/cobertura/index.html Coverage]
