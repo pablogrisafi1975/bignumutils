@@ -14,7 +14,7 @@ This mini dsl will allow you to work with BigDecimal and BigInteger almost as it
 ### Bad points: ###
   * No one uses it yet besides me, so I'm probably missing something important.
 
-See ProsAndCons to more detailed explanations.
+See [ProsAndCons](https://github.com/pablogrisafi1975/bignumutils/blob/wiki/ProsAndCons.md) to more detailed explanations.
 
 ---
 
@@ -61,5 +61,5 @@ as
 BigDecimal a = op(b, PLUS, c, TIMES, d);
 ```
 You see the difference? It respects operator precedence, so transforming a formula from standard infix notation to bignumutils notation is almost a search and replace.
-Check [UserManual](UserManual.md) to see how to make it work, [History](History.md) to see how I came up to this solution and get a better understanding of how it works, [DevLog](DevLog.md) to check the progress of the project, [Examples](Examples.md) to see some translation examples like how to transform that big formula I showed you a couple of paragraphs ago, or [RandomWikiPage](http://en.wikipedia.org/wiki/Special:Random) if you don't like this project at all and want to read about something totally different.
+Check [UserManual](https://github.com/pablogrisafi1975/bignumutils/blob/wiki/UserManual.md) to see how to make it work, [History](https://github.com/pablogrisafi1975/bignumutils/blob/wiki/History.md) to see how I came up to this solution and get a better understanding of how it works, [DevLog](https://github.com/pablogrisafi1975/bignumutils/blob/wiki/DevLog.md) to check the progress of the project, [Examples](https://github.com/pablogrisafi1975/bignumutils/blob/wiki/Examples.md) to see some translation examples like how to transform that big formula I showed you a couple of paragraphs ago, or [RandomWikiPage](http://en.wikipedia.org/wiki/Special:Random) if you don't like this project at all and want to read about something totally different.
 You can check the JavaDoc <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/apidocs/index.html" target="_blank">here</a>.
