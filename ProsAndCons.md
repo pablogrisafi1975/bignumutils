@@ -4,7 +4,7 @@ As I told you before
 
 ### Good points: ###
   * It is usable.
- * It passes all tests, see <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/surefire/surefire-report.html" target="_blank">surefire test report</a>.
+  * It passes all tests, see <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/surefire/surefire-report.html" target="_blank">surefire test report</a>.
   * It has great coverage, see <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/cobertura/index.html" target="_blank">coverage report</a>.
   * It is just 5 classes or so, so you will be able to fix it if anything does not work as expected.
 
