@@ -7,9 +7,10 @@ This mini dsl will allow you to work with BigDecimal and BigInteger almost as it
 ## Project status at 2010-02-07 ##
 ### Good points: ###
   * It is usable.
-  * It passes all tests, see [surefire test report](http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/surefire/surefire-report.html).
-  * It has great coverage, see [coverage report](http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/cobertura/index.html).
+  * It passes all tests, see <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/surefire/surefire-report.html" target="_blank">surefire test report</a>.
+  * It has great coverage, see <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/cobertura/index.html" target="_blank">coverage report</a>.
   * It is just 5 classes or so, so you will be able to fix it if anything does not work as expected.
+
 ### Bad points: ###
   * No one uses it yet besides me, so I'm probably missing something important.
 
@@ -61,4 +62,4 @@ BigDecimal a = op(b, PLUS, c, TIMES, d);
 ```
 You see the difference? It respects operator precedence, so transforming a formula from standard infix notation to bignumutils notation is almost a search and replace.
 Check [UserManual](UserManual.md) to see how to make it work, [History](History.md) to see how I came up to this solution and get a better understanding of how it works, [DevLog](DevLog.md) to check the progress of the project, [Examples](Examples.md) to see some translation examples like how to transform that big formula I showed you a couple of paragraphs ago, or [RandomWikiPage](http://en.wikipedia.org/wiki/Special:Random) if you don't like this project at all and want to read about something totally different.
-You can check the JavaDoc [here](http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/apidocs/index.html)
+You can check the JavaDoc <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/pablogrisafi1975/bignumutils/master/BigNumUtils/docs/apidocs/index.html" target="_blank">here</a>.
