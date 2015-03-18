@@ -1,3 +1,4 @@
+This page is ketp here for historical reasons. All this information should be in README.md 
 # bignumutils #
 
 This mini dsl will allow you to work with BigDecimal and BigInteger almost as it Java had operator overload. Well, at least code is more readable and you will use mathematical operator precedence.
